@@ -5,7 +5,19 @@ This project contains backend data processing applications and there is no graph
 
 ![Flow chart of e-services ](/images/schema_01.png)
 
+There are 5 different services in this repository: 
+* Missing Data Alers
 
 # Installation 
 
-The services were created with Python 3.7.5, please ensure you have a similar version installed on your local machine. You can check your Python version by opening a Command Prompt window and typing python -V. If Python is not installed, it can be downloaded from the Python for Windows website (try and use the x86-64 version where possible).
+1. The services were created with Python 3.7.5, please ensure you have a similar version installed on your local machine. You can check your Python version by opening a Command Prompt window and typing python -V. If Python is not installed, it can be downloaded from the Python for Windows website (try and use the x86-64 version where possible).
+
+2. Download source code by chosing Code->Download ZIP and extract files to C:\ on your local machine (do not choose alternative one as there is a reference to this specific location in the main.py file)
+
+![Download_package ](/images/img_02.png)
+
+
+
+3. A requirements.txt file has been supplied with all the necessary libraries required to use this tool. Use Command Prompt to navigate to the directory C:\KTP_e-services-master and use pip install -r requirements.txt to ensure all requirements are present.
+
+# How to run data processing services
