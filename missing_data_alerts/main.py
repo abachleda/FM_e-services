@@ -9,9 +9,9 @@ import pandas as pd
 from datetime import datetime,timedelta
 
 # Custom functions
-from lib.misc.send_email import send_email
+from lib.send_email import send_email
 #custom functions 
-from lib.misc.extract_annomalies import extract_annomalies
+from lib.extract_annomalies import extract_annomalies
 
 ###################SERVICE CONFIGURATION INPUT VARIABLES###########################
 facility_name='Campus X'
