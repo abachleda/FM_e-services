@@ -14,17 +14,20 @@ def send_email(
         file_location,
         file_name
         ):
+    #specify smtp server. To use gmail use: smpt_server=smtp.gmail.com smtp_port=465
+    smtp_server='<smtp_server>'
+    smtp_port='<smtp_port>'
     #creates SMTP session
-    s = smtplib.SMTP_SSL('smtp.gmail.com',465)
+    s = smtplib.SMTP_SSL(smtp_server, smtp_port)
 
 	#start TLS securely
 	#s.starttls()
 
 	#Authentication
-    s.login('<configured_email@gmail.com>', '<gmail_password>')
+    s.login('<configured_email>', '<gmail_password>')
 
 	#mesge to be sent 
-    sender = '<configured_email@gmail.com>'
+    sender = '<configured_email>'
     receivers= receivers
     msg= MIMEMultipart()
     msg['Subject']= subject
