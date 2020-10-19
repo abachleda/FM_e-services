@@ -1,0 +1,934 @@
+1603102580313	geckodriver	INFO	Listening on 127.0.0.1:49673
+1603102583242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileQM4XEB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603102587988	Marionette	INFO	Listening on port 49686
+1603102587993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104048500	Marionette	INFO	Stopped listening on port 49686
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileFe1Fb6"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603102613562	Marionette	INFO	Listening on port 49852
+1603102613680	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104047653	Marionette	INFO	Stopped listening on port 49852
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileS3rbvu"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603102708893	Marionette	INFO	Listening on port 50065
+1603102709205	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104032650	Marionette	INFO	Stopped listening on port 50065
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileQ3kIJF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603102796100	Marionette	INFO	Listening on port 50398
+1603102796568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104040355	Marionette	INFO	Stopped listening on port 50398
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileNNLPcw"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603102949485	Marionette	INFO	Listening on port 50685
+1603102949868	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104046961	Marionette	INFO	Stopped listening on port 50685
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofiled0ROb0"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603103736771	Marionette	INFO	Listening on port 51769
+1603103736940	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603104026192	Marionette	INFO	Stopped listening on port 51769
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofile82Diwp"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603103745286	Marionette	INFO	Listening on port 51817
+1603103745556	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603104026139	Marionette	INFO	Stopped listening on port 51817
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+esource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603103763128	Marionette	INFO	Listening on port 51881
+1603103763145	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603104026008	Marionette	INFO	Stopped listening on port 51881
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+esource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603103851157	Marionette	INFO	Listening on port 52012
+1603103851647	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 30048, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603104025792	Marionette	INFO	Stopped listening on port 52012
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603103945099	Marionette	INFO	Listening on port 52144
+1603103945356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104025456	Marionette	INFO	Stopped listening on port 52144
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileKrnGh1"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603103993795	Marionette	INFO	Listening on port 52234
+1603103993912	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603104024260	Marionette	INFO	Stopped listening on port 52234
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1603104055338	geckodriver	INFO	Listening on 127.0.0.1:52327
+1603104058265	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileHfTMKY"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104062058	Marionette	INFO	Listening on port 52338
+1603104062467	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110310136	Marionette	INFO	Stopped listening on port 52338
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileqYsfeK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104350326	Marionette	INFO	Listening on port 52749
+1603104350593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110309867	Marionette	INFO	Stopped listening on port 52749
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileyQv4gu"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104387916	Marionette	INFO	Listening on port 52826
+1603104388352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110309961	Marionette	INFO	Stopped listening on port 52826
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofile7LrYRl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104422857	Marionette	INFO	Listening on port 52898
+1603104422970	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110314097	Marionette	INFO	Stopped listening on port 52898
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileL8Fn0k"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104480517	Marionette	INFO	Listening on port 53003
+1603104480692	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 13536, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110056121	Marionette	INFO	Stopped listening on port 53003
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ry.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104594464	Marionette	INFO	Listening on port 53164
+1603104594523	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110312296	Marionette	INFO	Stopped listening on port 53164
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofilelFkbHI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104731694	Marionette	INFO	Listening on port 53330
+1603104731767	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110309928	Marionette	INFO	Stopped listening on port 53330
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofile085p5h"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603104766636	Marionette	INFO	Listening on port 53401
+1603104766947	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110311774	Marionette	INFO	Stopped listening on port 53401
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+esource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603105226850	Marionette	INFO	Listening on port 53947
+1603105226902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110310404	Marionette	INFO	Stopped listening on port 53947
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileFBEu2T"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603105683924	Marionette	INFO	Listening on port 54361
+1603105684364	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/73cae2ad2e9438ed62e655fefa4fd91a.js?tag=video_mra/web_fig_och, line 179: SecurityError: The operation is insecure.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://www.gstatic.com/mysidia/73cae2ad2e9438ed62e655fefa4fd91a.js?tag=video_mra/web_fig_och, line 179: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/73cae2ad2e9438ed62e655fefa4fd91a.js?tag=video_mra/web_fig_och, line 179: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/73cae2ad2e9438ed62e655fefa4fd91a.js?tag=video_mra/web_fig_och, line 179: SecurityError: T1603110312387	Marionette	INFO	Stopped listening on port 54575
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/73cae2ad2e9438ed62e655fefa4fd91a.js?tag=video_mra/web_fig_och, line 179: SecurityError: The operation is insecure.
+1603110309866	Marionette	INFO	Stopped listening on port 54361
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+46	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: https://www.gstatic.com/mysidia/73cae2ad2e9438ed62e655fefa4fd91a.js?tag=video_mra/web_fig_och, line 179: SecurityError: The operation is insecure.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAH1603110312144	Marionette	INFO	Stopped listening on port 54738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+xcm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:177:20
+_.cf@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:174:464
+_.df@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVut1603110313406	Marionette	INFO	Stopped listening on port 54915
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ew/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:469:114
+Dha/<@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:467:435
+Qda@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:177:238
+_.cf@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkA1603110310406	Marionette	INFO	Stopped listening on port 55024
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+H1qQ/m=_b,_tp:174:464
+_.df@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:174:255
+Dha@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:467:412
+cl.prototype.Yha@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABc1603110310725	Marionette	INFO	Stopped listening on port 55124
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+=_b,_tp:466:397
+c@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:513:245
+fha.prototype.H@https://www.gstatic.com/_/mss/boq-search/_/js/k=boq-search.VisualFrontendUi.en_US.f7GH_G4c0s0.es5.O/am=lAQECEr1hkAQSQABcowR5MO-ISAOkCAHAQAAAAQSwACgAD4BAAQAAABweXAIAAAAAAACGQEAAADAIg/d=1/excm=_b,_tp,searchview/ed=1/dg=0/wt=2/ct=zgms/rs=AH7-fg7WVutAAAKNsYA_tDyb8VAHaqH1qQ/m=_b,_tp:448:113
+v@https://www.google.com/search?q=cartilage+and+condyles&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiOo5Px0MDsAhWrQUEAHXo1603110312773	Marionette	INFO	Stopped listening on port 55321
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+##!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603110314914	Marionette	INFO	Stopped listening on port 54668
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+file:" (new Error("", "(unknown module)"))
+1603106535668	Marionette	INFO	Listening on port 55454
+1603106535772	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110313414	Marionette	INFO	Stopped listening on port 55454
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofilejHCexW"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603106585177	Marionette	INFO	Listening on port 55547
+1603106585518	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110309965	Marionette	INFO	Stopped listening on port 55547
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+" (new Error("", "(unknown module)"))
+1603106707540	Marionette	INFO	Listening on port 55736
+1603106707847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110310353	Marionette	INFO	Stopped listening on port 55736
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603106987240	Marionette	INFO	Listening on port 56052
+1603106987710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110313296	Marionette	INFO	Stopped listening on port 56052
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileuLjN9q"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603107077753	Marionette	INFO	Listening on port 56179
+1603107077926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110312234	Marionette	INFO	Stopped listening on port 56179
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofilea6AOTv"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603107564770	Marionette	INFO	Listening on port 56938
+1603107565004	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 45596, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110310684	Marionette	INFO	Stopped listening on port 56938
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603107629351	Marionette	INFO	Listening on port 57060
+1603107629751	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110312427	Marionette	INFO	Stopped listening on port 57060
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: canno1603110312748	Marionette	INFO	Stopped listening on port 57149
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Channel::SendAndWait] Error: Channel error: cannot send/recv
+
+sWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603107743738	Marionette	INFO	Listening on port 57277
+1603107744153	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 44360, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110308405	Marionette	INFO	Stopped listening on port 57277
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+d symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603107913102	Marionette	INFO	Listening on port 57619
+1603107913347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110312208	Marionette	INFO	Stopped listening on port 57619
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofilePV5V06"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603107933503	Marionette	INFO	Listening on port 57685
+1603107933842	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110313057	Marionette	INFO	Stopped listening on port 57685
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileTygsac"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603108030616	Marionette	INFO	Listening on port 57840
+1603108030870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110308800	Marionette	INFO	Stopped listening on port 57840
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileb0mzwS"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603108163148	Marionette	INFO	Listening on port 58057
+1603108163476	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110307649	Marionette	INFO	Stopped listening on port 58057
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofile9nn3qQ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603108342643	Marionette	INFO	Listening on port 58320
+1603108343195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110308326	Marionette	INFO	Stopped listening on port 58320
+3108352909	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofilegRyf7V"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603108357723	Marionette	INFO	Listening on port 58372
+1603108358197	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110308469	Marionette	INFO	Stopped listening on port 58372
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofile3yzzHX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603108468370	Marionette	INFO	Listening on port 58551
+1603108468912	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110308243	Marionette	INFO	Stopped listening on port 58551
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileHYx7av"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603109844266	Marionette	INFO	Listening on port 60128
+1603109844807	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110058359	Marionette	INFO	Stopped listening on port 60128
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofiletmTvwR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603109923498	Marionette	INFO	Listening on port 60295
+1603109923622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 47052, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110054582	Marionette	INFO	Stopped listening on port 60295
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Sx"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603109988052	Marionette	INFO	Listening on port 60403
+1603109988116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 50432, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 50432, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110052492	Marionette	INFO	Stopped listening on port 60403
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ew Error("", "(unknown module)"))
+1603110027171	Marionette	INFO	Listening on port 60474
+1603110027394	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+[Parent 60380, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 60380, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+[Parent 60380, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110048536	Marionette	INFO	Stopped listening on port 60474
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603110060493	geckodriver	INFO	Listening on 127.0.0.1:60568
+1603110063372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofile2k6huI"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110069774	Marionette	INFO	Listening on port 60577
+1603110070301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110307921	Marionette	INFO	Stopped listening on port 60577
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1603110314975	geckodriver	INFO	Listening on 127.0.0.1:60929
+1603110317653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileTnfZ8o"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110323332	Marionette	INFO	Listening on port 60941
+1603110323608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110388041	Marionette	INFO	Stopped listening on port 60941
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofiletV6Bec"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110357884	Marionette	INFO	Listening on port 61010
+1603110358357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110387362	Marionette	INFO	Stopped listening on port 61010
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofile7Cwifs"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110366795	Marionette	INFO	Listening on port 61059
+1603110367086	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: file:///C:/Users/ABACHL~1/AppData/Local/Temp/bokehicveq6ev.html, line 283: Error: duplicate factor or subfactor: 2020-05-10
+1603110386167	Marionette	INFO	Stopped listening on port 61059
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1603110390625	geckodriver	INFO	Listening on 127.0.0.1:61108
+1603110393534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofilezOatzl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110398192	Marionette	INFO	Listening on port 61118
+1603110398318	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 58364, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603110692875	Marionette	INFO	Stopped listening on port 61118
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110405915	Marionette	INFO	Listening on port 61159
+1603110406004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: file:///C:/Users/ABACHL~1/AppData/Local/Temp/bokehmynmwin2.html, line 283: Error: duplicate factor or subfactor: 2020-05-10
+[Parent 6460, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603111758036	Marionette	INFO	Stopped listening on port 61159
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rYj"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110479847	Marionette	INFO	Listening on port 61234
+1603110479934	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 47488, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603111758089	Marionette	INFO	Stopped listening on port 61234
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: file:///C:/Users/ABACHL~1/AppData/Local/Temp/bokehrghr5pbi.html, line 283: Error: duplicate factor or subfactor: 2020-05-10
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603111758104	Marionette	INFO	Stopped listening on port 61281
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+esource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110535028	Marionette	INFO	Listening on port 61342
+1603110535091	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603111758031	Marionette	INFO	Stopped listening on port 61342
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofile4CPJkO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110541069	Marionette	INFO	Listening on port 61389
+1603110541538	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 4532, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603111758036	Marionette	INFO	Stopped listening on port 61389
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+i3K"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110680841	Marionette	INFO	Listening on port 61566
+1603110681206	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757923	Marionette	INFO	Stopped listening on port 61566
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileqlbBlV"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110743507	Marionette	INFO	Listening on port 61701
+1603110743665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603110763990	Marionette	INFO	Stopped listening on port 61701
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileRlxv1o"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110749801	Marionette	INFO	Listening on port 61750
+1603110750065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603110763198	Marionette	INFO	Stopped listening on port 61750
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1603110782968	geckodriver	INFO	Listening on 127.0.0.1:61815
+1603110785979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileuIm9WD"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110788611	Marionette	INFO	Listening on port 61825
+1603110789092	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757873	Marionette	INFO	Stopped listening on port 61825
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileddjMeZ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110845233	Marionette	INFO	Listening on port 61891
+1603110845677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757730	Marionette	INFO	Stopped listening on port 61891
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofile8sAg7c"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110867880	Marionette	INFO	Listening on port 61947
+1603110868233	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757634	Marionette	INFO	Stopped listening on port 61947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+l\\Temp\\rust_mozprofileya1wX3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603110957076	Marionette	INFO	Listening on port 62051
+1603110957266	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757856	Marionette	INFO	Stopped listening on port 62051
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+d symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603111224675	Marionette	INFO	Listening on port 62447
+1603111224943	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757738	Marionette	INFO	Stopped listening on port 62447
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileuPc2h2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603111262650	Marionette	INFO	Listening on port 62523
+1603111262841	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 25864, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603111757754	Marionette	INFO	Stopped listening on port 62523
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+re.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603111314779	Marionette	INFO	Listening on port 62614
+1603111315005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757863	Marionette	INFO	Stopped listening on port 62614
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofileZ7d6QC"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603111495554	Marionette	INFO	Listening on port 62918
+1603111495681	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757835	Marionette	INFO	Stopped listening on port 62918
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ABACHL~1\\AppData\\Local\\Temp\\rust_mozprofiletmYhWz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603111549356	Marionette	INFO	Listening on port 63021
+1603111549486	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+[Parent 30860, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1603111757872	Marionette	INFO	Stopped listening on port 63021
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tJ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603111646456	Marionette	INFO	Listening on port 63142
+1603111646565	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/listener.js, line 388: SecurityError: Permission denied to access property "windowUtils" on cross-origin object
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+1603111757892	Marionette	INFO	Stopped listening on port 63142
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
