@@ -33,7 +33,11 @@ interval_datapoint_minutes=30
 # treshold for triggering missing data alert ( in minutes) 
 alert_threshold_minutes=120
 
-# assigned building names to the meternames included in data 
+
+#list of the submeters considered in analysis 
+submeters = ['HM-CU-01','HM-HW-01','HM-JW-01','HM-JA-01','HM-RW-01','HM-RC-01','HM-ST-01','HM-SU-01','HM-TG-01','HM-TI-01','HM-SC-01','HM-GH-01','HM-HD-01','HM-TG-02','HM-TG-03']
+
+# assigned building names to the meter names included in data 
 meters_labels= {
     'HM-CU-01':'Building_1',
     'HM-HW-01':'Building2',
@@ -52,10 +56,7 @@ meters_labels= {
     'HM-TG-03':'Building_15'
     }
 
-
-#list of the submeters considered in analysis 
-submeters = ['HM-CU-01','HM-HW-01','HM-JW-01','HM-JA-01','HM-RW-01','HM-RC-01','HM-ST-01','HM-SU-01','HM-TG-01','HM-TI-01','HM-SC-01','HM-GH-01','HM-HD-01','HM-TG-02','HM-TG-03']
-
+recipient_email_address= '<recipient_email>'
 ###################################################################################
 
 #current timestamp 
@@ -166,8 +167,8 @@ if len(recorded_alerts)>0:
     content=report_date+' Missing data events detected. Check the details below: \n\n'+alerts
     send_email(
             content,
-            receivers = 'abachleda-baca@arbnco.com',
-            #receivers = 'abachleda-baca@arbnco.com,cdasbhaumik@arbnco.com,daniel.costola@strath.ac.uk',
+			#Fill email address 
+            receivers = recipient_email_address,
             subject = 'Missing data events detected for energy meters at '+facility_name,
             file_location = None,
             file_name = None
