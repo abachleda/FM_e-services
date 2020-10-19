@@ -21,4 +21,7 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 
 # Configure gmail account to send emails
 
+Service is configured to send email notification to provided recipient, however SNMP server needs to be configured. Please reffer to: 
 https://realpython.com/python-send-email/#option-1-setting-up-a-gmail-account-for-development
+
+While SNMP server configured please provide credentials in the /lib/ 
