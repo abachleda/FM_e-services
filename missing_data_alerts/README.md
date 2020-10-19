@@ -18,6 +18,7 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 4. interval_datapoint_minutes -  Interval betweeen energy consumption readings according to datased. This is usually equal to 30 minutes for most of meters in commercial buildings. 
 5. submeters - List including submeters from the data set, that you want to consider. 
 6. meters_labels - Specific labels assigned to the meters in data file. That could be buildings names if the meters are per building. 
+7. recipient_email_address -  Recipient email adress for electronic alerts notification. Note that the SNMP server needs to be configured.
 
 # Configure gmail account to send emails
 
