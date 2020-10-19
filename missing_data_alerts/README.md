@@ -26,5 +26,10 @@ Service is configured to send email notification to provided recipient, however 
 https://realpython.com/python-send-email/#option-1-setting-up-a-gmail-account-for-development
 
 After SNMP server configured, In order to send emails  please provide credentials in the /lib/send_email.py :  <br />
-<configured_email>, <gmail_password>, <smtp_server>, <smtp_port> 
+<configured_email>, <gmail_password>, <smtp_server>, <smtp_port>. <br />
+
+To use gmail SMTP use: <br />
+smtp_server='smtp.gmail.com' <br />
+smtp_port=465
+
 
