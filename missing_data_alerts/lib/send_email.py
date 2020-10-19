@@ -15,8 +15,8 @@ def send_email(
         file_name
         ):
     #specify smtp server. To use gmail use: smpt_server=smtp.gmail.com smtp_port=465
-    smtp_server='<smtp_server>'
-    smtp_port='<smtp_port>'
+    smtp_server='smtp.gmail.com'
+    smtp_port='465'
     #creates SMTP session
     s = smtplib.SMTP_SSL(smtp_server, smtp_port)
 
@@ -24,7 +24,7 @@ def send_email(
 	#s.starttls()
 
 	#Authentication
-    s.login('<configured_email>', '<gmail_password>')
+    s.login('arbncoservices@gmail.com', 'mfRGH4v^oQAH78')
 
 	#mesge to be sent 
     sender = '<configured_email>'
