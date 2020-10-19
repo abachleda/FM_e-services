@@ -7,7 +7,7 @@ os.chdir('C:/KTP_e-services-master/missing_data_alerts')
 # Inport libraries
 import pandas as pd
 from datetime import datetime,timedelta
-
+import json
 # Custom functions
 from lib.send_email import send_email
 #custom functions 
@@ -143,32 +143,37 @@ for building in buildings_list:
 
 ###RISE ALERT IF 0 READIINGS RECORDED FOR LONGER THAN SPECIFIED THRESHOLD OR ANY NaN READINGS RECORDED ########
 #array to store alerts 
-recorded_alerts=[]
+recorded_alerts={}
 #save report date as current timestamp 
 report_date=current_timestamp_string
-
+formated_date = report_date[0:10]+'_'+report_date.replace(':',"_")[11:]
 
 for building in buildings_name_zero_data: 
     for i in data['zero_data']['zero_readings_values'][building][0]:
         if int(i['duration'])>alert_threshold_minutes:
             timestamp=i['anomalies_details'][-1][0]
-            alert='Zero values recorded for the period of '+i['duration']+' minutes during normal occupancy hours in ' +building+ ' at '+timestamp 
-            recorded_alerts.append(alert)
+            alert={timestamp: 'Zero values recorded for the period of '+i['duration']+' minutes during normal occupancy hours in ' +building}
+            recorded_alerts.update(alert)
 
 for building in buildings_name_nan_data: 
     for i in data['nan_data']['nan_readings_values'][building][0]:
         timestamp=i['anomalies_details'][-1][0]
-        alert='Missing values recorded for the period of '+i['duration']+' minutes during normal occupancy hours in ' +building+ ' at '+timestamp 
-        recorded_alerts.append(alert)
-    
+        alert={timestamp:'Missing values recorded for the period of '+i['duration']+' minutes during normal occupancy hours in ' +building}
+        recorded_alerts.update(alert)
+## save alerts in json output 
+
+with open('output/'+formated_date+'.json', 'w') as fp:
+    json.dump(recorded_alerts, fp)   
 ####SEND EMAIL NOTIFICATION IF ANY ALERTS RECORDED#####
 if len(recorded_alerts)>0: 
-    alerts='\n\n'.join(recorded_alerts)
-    content=report_date+' Missing data events detected. Check the details below: \n\n'+alerts
+    alerts=''
+    for i in recorded_alerts: 
+        alerts=alerts+i+' '+recorded_alerts[i][:]+'\n\n'
+    content=' Missing data events detected. Check the details below: \n\n'+alerts
     send_email(
             content,
 			#Fill email address 
-            receivers = recipient_email_address,
+            receivers = 'abachleda-baca@arbnco.com',
             subject = 'Missing data events detected for energy meters at '+facility_name,
             file_location = None,
             file_name = None
