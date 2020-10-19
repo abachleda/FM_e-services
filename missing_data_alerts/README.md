@@ -6,7 +6,10 @@ The service requires input data  from utility meters exported to csv file. Readi
 
 # Input Data 
 
-Input data must be in csv format and include following columns: timestamp, meter, energy_kwh. <
+Input data must be in csv format and include following columns: timestamp, meter, energy_kwh. <br />
+Data can include readings from multiple meters. 
+
+
 # Configure gmail account to send emails
 
 https://realpython.com/python-send-email/#option-1-setting-up-a-gmail-account-for-development
