@@ -1,6 +1,8 @@
 
 #Missing data Alerts
 
+The service requires data from utility meters 
+
 
 # Configure gmail account to send emails
 
