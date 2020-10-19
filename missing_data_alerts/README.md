@@ -19,6 +19,9 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 5. submeters - List including submeters from the data set, that you want to consider. 
 6. meters_labels - Specific labels assigned to the meters in data file. That could be buildings names if the meters are per building. 
 7. recipient_email_address -  Recipient email adress for electronic alerts notification. Note that the SNMP server needs to be configured.
+# Output data 
+
+The output of the service include json file with all missing data alerts. The information include timestamp, durration of data gap and building name for which the missing data was registered. 
 
 # Configure gmail account to send emails
 
