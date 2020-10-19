@@ -21,7 +21,8 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 7. recipient_email_address -  Recipient email adress for electronic alerts notification. Note that the SNMP server needs to be configured.
 # Output data 
 
-The output of the service include json file with all missing data alerts. The information include timestamp, durration of data gap and building name for which the missing data was registered. 
+The output of the service include json file with all missing data alerts. The information include timestamp, durration of data gap and building name for which the missing data was registered. Those files are being saved in /output. 
+
 
 # Configure gmail account to send emails
 
