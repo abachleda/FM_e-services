@@ -23,6 +23,6 @@ There are 5 different services in this repository:
 # How to run data processing services
 After all required packages were installed on the local machine e-services can be either run from command windows or added to Task Scheduler and run as a periodic task. 
 
-1.  Open cmd and navigate to specific service location using 
-cd C:/KTP_e-services-master/<name_of_the_service>
+1.  Open cmd and navigate to specific service location using <br />
+cd C:/KTP_e-services-master/<name_of_the_service><br />
 py mail.py
