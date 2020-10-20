@@ -43,4 +43,4 @@ After all required packages were installed on the local machine e-services can b
 cd C:/KTP_e-services-master/missing_data_alerts <br />
 py main.py
 
-2. Add an a periodic task to Task Scheduler providing action start program: C:\KTP_e-services-master\missing_data_alerts\missing_data_alerts.bat
+2. Add an a periodic task to Task Scheduler providing action start program: <br /> C:\KTP_e-services-master\missing_data_alerts\missing_data_alerts.bat
