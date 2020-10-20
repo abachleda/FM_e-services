@@ -23,9 +23,4 @@ There are 4 different services in this repository:
 
 3. A requirements.txt file has been supplied with all the necessary libraries required to use this tool. Use Command Prompt to navigate to the directory C:\KTP_e-services-master and use pip install -r requirements.txt to ensure all requirements are present.
 
-# How to run data processing services
-After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2). 
 
-1.  Open cmd and navigate to specific service location using: <br />
-cd C:/KTP_e-services-master/<name_of_the_service><br />
-py mail.py
