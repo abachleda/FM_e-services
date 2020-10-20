@@ -36,4 +36,9 @@ To use gmail SMTP use: <br />
 smtp_server='smtp.gmail.com' <br />
 smtp_port=465
 
+# How to run data processing services
+After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2). 
 
+1.  Open cmd and navigate to specific service location using: <br />
+cd C:/KTP_e-services-master/missing_data_alerts <br />
+py main.py
