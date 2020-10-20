@@ -27,7 +27,7 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 The output of the service include json file with all missing data alerts. The information include timestamp, durration of data gap and building name for which the missing data was registered. Those files are being saved in /output. 
 
 
-# Configure gmail account to send emails
+# Sending notification e-mails
 
 Service is configured to send email notification to provided recipient, however SNMP server needs to be configured. Please reffer to: 
 https://realpython.com/python-send-email/#option-1-setting-up-a-gmail-account-for-development
