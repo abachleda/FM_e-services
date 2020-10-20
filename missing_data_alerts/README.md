@@ -9,6 +9,8 @@ The service requires input data  from utility meters exported to csv file. Readi
 Input data must be in csv format and include following columns: timestamp, meter, energy_kwh. <br />
 Data can include readings from multiple meters/buildings  as long as the meters are labeled. 
 
+Note: If you want to run this service in regular intervals you need to make sure that your data is also exported in requilar basis to csv format in /data location
+
 # Configuration of the service 
 
 Configuration can be changed by editing SERVICE CONFIGURATION section in main.py. Following parameters can be specified by the user: 
