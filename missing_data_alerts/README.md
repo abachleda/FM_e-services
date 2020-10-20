@@ -36,7 +36,7 @@ To use gmail SMTP use: <br />
 smtp_server='smtp.gmail.com' <br />
 smtp_port=465
 
-# How to run data service
+# How to run service
 After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2). 
 
 1.  Open cmd and navigate to specific service location using: <br />
