@@ -9,7 +9,7 @@ The service requires input data  from utility meters exported to csv file. Readi
 Input data must be in csv format and include following columns: timestamp, meter, energy_kwh. <br />
 Data can include readings from multiple meters/buildings  as long as the meters are labeled. 
 
-Note: If you want to run this service in regular intervals you need to make sure that that the meters data is also exported in requilar basis to /data/
+Note: If you want to run this service in regular intervals you need to make sure that that the meters data is also exported in requilar basis to /data/energydata.csv
 eg. if you want to run this service every day data needs to be exported to /data before scheduled time of the service run. 
 
 # Configuration of the service 
