@@ -42,3 +42,5 @@ After all required packages were installed on the local machine e-services can b
 1.  Open cmd and navigate to specific service location using: <br />
 cd C:/KTP_e-services-master/missing_data_alerts <br />
 py main.py
+
+2. Add an a periodic task to Task Scheduler 
