@@ -1,165 +1,181 @@
 
-# File manipulation
+# Declare the working directory 
 import sys
 import os
-sys.path.append('C:/KTP_e-services-master/sumbeters_energy_share')
-os.chdir('C:/KTP_e-services-master/sumbeters_energy_share')
-
-
-# Misc
+sys.path.append('C:/KTP_e-services-master/missing_data_alerts')
+os.chdir('C:/KTP_e-services-master/missing_data_alerts')
+# Inport libraries
 import pandas as pd
-import psycopg2
-
-from fpdf import FPDF
-from datetime import datetime
-
-#chart libraries 
-from math import pi
-from bokeh.palettes import Category10
-from bokeh.models.sources import ColumnDataSource
-from bokeh.plotting import figure
-from bokeh.transform import cumsum 
-from bokeh.models import Legend, HoverTool, LabelSet, LegendItem
-from bokeh.io import output_notebook, show, push_notebook
-from bokeh.io import export_png
-from bokeh.transform import factor_cmap
-from bokeh.plotting import figure, save, output_file
-from bokeh.palettes import *
-import numpy as np
-
-
-
+from datetime import datetime,timedelta
+import json
 # Custom functions
-
 from lib.send_email import send_email
+#custom functions 
+from lib.extract_annomalies import extract_annomalies
+
+###################SERVICE CONFIGURATION INPUT VARIABLES###########################
+facility_name='Campus X'
+#required data format str yyyy-mm-dd hh:mm:ss
+start_date='2020-03-01 00:00:00'
+end_date='2020-03-24 23:30:00'
+
+# Option if the service is run trough cron or task scheduler in daily basis. Data with current readings needs to be available to run that option (data/energy_data.csv)
+'''now=datetime.now()
+start_date=now.strftime("%Y-%m-%d %H:%M:%S")
+end_date=(now-timedelta(days=1)).strftime("%Y-%m-%d %H:%M:%S")'''
+
+#required hour formal str hh:mm
+start_occupancy_hour='06:30'
+end_occupancy_hour='18:30'
+
+#frequency of measurment
+interval_datapoint_minutes=30
+# treshold for triggering missing data alert ( in minutes) 
+alert_threshold_minutes=120
 
 
+#list of the submeters considered in analysis 
+submeters = ['HM-CU-01','HM-HW-01','HM-JW-01','HM-JA-01','HM-RW-01','HM-RC-01','HM-ST-01','HM-SU-01','HM-TG-01','HM-TI-01','HM-SC-01','HM-GH-01','HM-HD-01','HM-TG-02','HM-TG-03']
 
-###SERVICE CONFIGURATION####
-#Specify submeters that you want to include in report 
+# assigned building names to the meter names included in data 
+meters_labels= {
+    'HM-CU-01':'Building_1',
+    'HM-HW-01':'Building2',
+    'HM-JW-01':'Building_3',
+    'HM-JA-01':'Building_4',
+    'HM-RW-01':'Building_5',
+    'HM-RC-01':'Building_6',
+    'HM-ST-01':'Building_7',
+    'HM-SU-01':'Building_8',
+    'HM-TG-01':'Building_9',
+    'HM-TI-01':'Building_10',
+    'HM-SC-01':'Building_11',
+    'HM-GH-01':'Building_12',
+    'HM-HD-01':'Building_13', 
+    'HM-TG-02':'Building_14',
+    'HM-TG-03':'Building_15'
+    }
 
-meters=['TIC Heating pumps','TIC Small Power','TIC Kitchens','TIC IT Communications','TIC Workshops','TIC Auditoriums','TIC Mechanical Plant',
-            'TIC Lifts','TIC Labs','TIC Chillers','TIC Fume Cupboard Extracts','TIC Lighting','TIC AHUs','HM-TI-01']
+recipient_email_address= '<recipient_email>'
+###################################################################################
+
+#current timestamp 
+current_timestamp=datetime.now()
+current_timestamp_string =datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 
-#import data from the file 
-energy_summary = pd.read_csv('data/energy_data.csv') 
-energy_summary= energy_summary[['timestamp','energy_kwh','meter','site']]
-#choose values only for considered submeters 
-energy_summary=energy_summary.loc[energy_summary['meter'].isin(meters)]
-#sort vales by timestamp
-energy_summary=energy_summary.sort_values(by=['timestamp'])
-#reset index
-energy_summary.reset_index(inplace=True)
-del energy_summary['index']
-#put every meter in separate column 
+#Export data from csv file 
+energy_data = pd.read_csv('data/energy_data.csv')
+#change timestamp to datetime
+energy_data['timestamp']=pd.to_datetime(energy_data['timestamp'])
+#sort by timestamp
+energy_data=energy_data.sort_values(by=['timestamp'])
+ 
+####Extract period of time defined by the user####
 
-energy_summary = energy_summary.pivot_table(index='timestamp',columns='meter')
-#change name for the heating meter to more user friendly 
-energy_summary.rename(columns={'HM-TI-01':'Total district heating'},inplace=True)
-#change index to datetime 
-energy_summary.index= pd.to_datetime(energy_summary.index)
+mask = (energy_data['timestamp'] >= start_date) & (energy_data['timestamp'] <= end_date)
+energy_data = energy_data.loc[mask]
+energy_data=energy_data.reset_index(drop=True)
 
-#define new dataframe to put values of weekly energy usage in it 
-weekly_summary_consumption = pd.DataFrame()
-#weekly summary for each meter 
-weekly_summary_consumption = energy_summary.resample('168H').sum().round(decimals=0)
-#change name of the columns 
-weekly_summary_consumption.columns=[str(s2) for (s1,s2)in weekly_summary_consumption.columns.tolist()]
-#remove index name
-weekly_summary_consumption.index.name=None
+#extract data from meters specified in the configuration (submeters) 
+energy_data=energy_data.loc[energy_data['meter'].isin(submeters)] 
+
+#choose only energy readings column 
+energy_data=energy_data[['meter','energy_kwh','timestamp']]
+
+####Transform dataframe####
+
+#drop duplicates in dataframe 
+energy_data=energy_data.drop_duplicates()
+#transform to multiple columns 
+energy_data=energy_data.pivot(index='timestamp',columns='meter',values='energy_kwh' )
+
+#rename columns for names of the buildings that has specific meter installed (meters_labels) 
+energy_data.rename(columns=meters_labels,inplace=True)
+#choose only timestamps during occupancy hours 
+energy_data1=energy_data.between_time(start_occupancy_hour, end_occupancy_hour)
+#save buildings names in the array 
+buildings_list=list(energy_data1)
 #reset index 
-weekly_summary_consumption.reset_index(inplace=True)
-#change name of column index to timestamp 
-weekly_summary_consumption=weekly_summary_consumption.rename({'index':'timestamp'},axis=1)
-#put all meters in the same column 
-weekly_summary_consumption=pd.melt(weekly_summary_consumption,id_vars='timestamp',var_name='Meter',value_name='energy_kwh')
-#calculate total energy from all meters 
-total_energy_consumption= weekly_summary_consumption.energy_kwh.sum().round(decimals=0)
-
-# Take into account values that are bigger than 0 for graph
-weekly_summary_consumption_graph = weekly_summary_consumption[weekly_summary_consumption['energy_kwh'].round(decimals=0) > 0]
-
-# calculate contribution of every meter in total energy usage in % rounded to 1 decimal point 
-weekly_summary_consumption['energy_contribution']= (weekly_summary_consumption['energy_kwh']/total_energy_consumption*100).round(decimals=0)
-weekly_summary_consumption=weekly_summary_consumption.sort_values(by='energy_contribution', ascending=False)
-weekly_summary_consumption.reset_index(inplace=True)
-weekly_summary_consumption_graph = weekly_summary_consumption[weekly_summary_consumption['energy_contribution'].round(decimals=0) > 0]
-#sort values by energy usage contribution 
-weekly_summary_consumption_graph=weekly_summary_consumption_graph.sort_values(by='energy_contribution', ascending=False)
-
-#convert dataframe columns to dictionary
-submeters_dict = dict(zip(weekly_summary_consumption_graph.Meter, weekly_summary_consumption_graph.energy_contribution))
+energy_data1=energy_data1.reset_index()
 
 
-colors=['#8B008B','#1f77b4', '#aec7e8', '#ff7f0e', '#ffbb78', '#2ca02c', '#98df8a', '#d62728', '#ff9896', '#9467bd', '#c5b0d5',
-        '#8c564b', '#c49c94', '#e377c2', '#f7b6d2', '#7f7f7f', '#c7c7c7', '#bcbd22', '#dbdb8d', '#17becf', '#9edae5','#4B0082']
+##DETECT INCORRECT 0  OR NAN READINGS  IN THE DATA DURING OCCUPANCY HOURS#######  
+#%%define dictionary to store erroneous data
+data={}
+data['zero_data']={'timestamp':current_timestamp_string}
+data['zero_data'].update({'zero_readings_values':{}})
+
+data['nan_data']={'timestamp':current_timestamp_string}
+data['nan_data'].update({'nan_readings_values':{}})
+
+buildings_name_zero_data=[]
+buildings_name_nan_data=[]
 
 
-# libraries
+for building in buildings_list:
+    dataframe=energy_data1[['timestamp',building]]
+    #check for empty values
+    dataframe_zero_values= dataframe[['timestamp',building]][dataframe[building]==0]
+    dataframe_nan_values= dataframe[['timestamp',building]][dataframe[building].isnull()]
+    #sort by timestamp 
+    dataframe_zero_values= dataframe_zero_values.sort_values(by='timestamp',ascending=True)
+    dataframe_nan_values= dataframe_nan_values.sort_values(by='timestamp',ascending=True)
+    #Extracting 0  values reported and duration of the annomaly
+    if not dataframe_zero_values.empty:
+        data['zero_data']['zero_readings_values'].update({building:[]})
+        data['zero_data']['zero_readings_values'][building]=extract_annomalies(
+            dataframe_anomalies=dataframe_zero_values,
+            interval_minutes=interval_datapoint_minutes,
+            output_dictionary=data['zero_data']['zero_readings_values'][building],
+            name='zero_values')
+        buildings_name_zero_data.append(building)
+    #Extracting 0  values reported and duration of the annomaly        
+    if not dataframe_nan_values.empty:
+        data['nan_data']['nan_readings_values'].update({building:[]})
+        data['nan_data']['nan_readings_values'][building]=extract_annomalies(
+            dataframe_anomalies=dataframe_nan_values,
+            interval_minutes=interval_datapoint_minutes,
+                      output_dictionary=data['nan_data']['nan_readings_values'][building],
+                      name='nan_values')
+        buildings_name_nan_data.append(building)
 
-import matplotlib.pyplot as plt
-import squarify    # pip install squarify (algorithm for treemap)
-import matplotlib.patches as mpatches 
 
-fig, ax = plt.subplots()
-squarify.plot(sizes=weekly_summary_consumption_graph['energy_kwh'].values, label=weekly_summary_consumption_graph['energy_contribution'].values, alpha=.8,color=colors,text_kwargs={'fontsize':17})
-plt.axis('off')
-all_patches=[]
-for i in list(submeters_dict.keys()):
-    i= list(submeters_dict.keys()).index(i)
-    all_patches.append(mpatches.Patch(color=colors[i], label=weekly_summary_consumption_graph['Meter'].values[i]))
-plt.legend(handles=all_patches, loc='lower left', bbox_to_anchor=(0, -2.1),fontsize=30)
-fig.set_size_inches(10,5)#
-plt.suptitle('Energy consumption in TIC Building', fontsize=20)
-plt.savefig('charts/plot_treemap.png',bbox_inches='tight',pad_inches=1)
+###RISE ALERT IF 0 READIINGS RECORDED FOR LONGER THAN SPECIFIED THRESHOLD OR ANY NaN READINGS RECORDED ########
+#array to store alerts 
+recorded_alerts={}
+#save report date as current timestamp 
+report_date=current_timestamp_string
+formated_date = report_date[0:10]+'_'+report_date.replace(':',"_")[11:]
 
-#Generation of PDF Report 
-pdf = FPDF()
-pdf.add_page()
-pdf.set_xy(0, 0)
-pdf.set_font('arial', 'B', 12)
-pdf.cell(60)
-pdf.cell(75, 10, "Contribution of meters in total Energy usage in TIC building", 0, 2, 'C')
-pdf.set_font('arial', 'B', 10)
-#extract begining of the week
-start_week=energy_summary.index[0]
-#change to string
-start_week=datetime.strftime(start_week, '%Y-%m-%d %H:%M:%S')
-start_week=start_week[:10]
-#extract end of the week
-stop_week=energy_summary.index[-1]
-#change to string
-stop_week=datetime.strftime(stop_week, '%Y-%m-%d %H:%M:%S')
-stop_week=stop_week[:10]
-pdf.cell(75, 10, "Report generated on: "+ datetime.now().strftime('%Y-%m-%d %H:%M:%S'), 0, 2, 'C')
-pdf.cell(75, 10, "Week: From "+start_week+' to '+stop_week , 0, 2, 'C')
-pdf.cell(90, 10, 'The table shows all submeters in the building listed in order of energy usage, from highest to lowest', 0, 2, 'C')
-pdf.cell(-40)
-pdf.set_font('arial', 'B', 10)
-pdf.cell(80, 10, 'Meter', 1)
-pdf.cell(40, 10, 'Energy Usage [kWh]', 1)
-pdf.ln()
-pdf.cell(10)
-pdf.set_font('arial', '', 10)
-for i in range(0, len(weekly_summary_consumption)):
-    pdf.cell(80, 10, '%s' % (weekly_summary_consumption.Meter[i]), 1)
-    pdf.cell(40, 10, '%s' % (weekly_summary_consumption.energy_kwh[i]), 1)
-    pdf.ln()
-    pdf.cell(10)
-    #pdf.cell(-90)
-pdf.cell(90, 10, " ", 0, 2, 'C')
-pdf.cell(-25)
-pdf.image('charts/plot_treemap.png', x = None, y = None, w = 200, h = 280, type = '', link = '')
-pdf.output('reports/energy_meters_TIC.pdf', 'F')
-#send an email 
+for building in buildings_name_zero_data: 
+    for i in data['zero_data']['zero_readings_values'][building][0]:
+        if int(i['duration'])>alert_threshold_minutes:
+            timestamp=i['anomalies_details'][-1][0]
+            alert={timestamp: 'Zero values recorded for the period of '+i['duration']+' minutes during normal occupancy hours in ' +building}
+            recorded_alerts.update(alert)
 
-content='Please find the weekly report including energy consumption in TIC building, highlighting specific areas of consumption'
-send_email(
-        content,
-        receivers = 'abachleda-baca@arbnco.com',
-        subject = 'Energy consumption statistics for TIC building',
-        file_location = 'reports/energy_meters_TIC.pdf',
-        file_name = 'energy_meters_TIC'
-        )
+for building in buildings_name_nan_data: 
+    for i in data['nan_data']['nan_readings_values'][building][0]:
+        timestamp=i['anomalies_details'][-1][0]
+        alert={timestamp:'Missing values recorded for the period of '+i['duration']+' minutes during normal occupancy hours in ' +building}
+        recorded_alerts.update(alert)
+## save alerts in json output 
+
+with open('output/'+formated_date+'.json', 'w') as fp:
+    json.dump(recorded_alerts, fp)   
+####SEND EMAIL NOTIFICATION IF ANY ALERTS RECORDED#####
+if len(recorded_alerts)>0: 
+    alerts=''
+    for i in recorded_alerts: 
+        alerts=alerts+i+' '+recorded_alerts[i][:]+'\n\n'
+    content=' Missing data events detected. Check the details below: \n\n'+alerts
+    send_email(
+            content,
+			#Fill email address 
+            receivers = recipient_email_address,
+            subject = 'Missing data events detected for energy meters at '+facility_name,
+            file_location = None,
+            file_name = None
+            )
 
