@@ -50,6 +50,6 @@ After all required packages were installed on the local machine e-services can b
 
 1.  Open cmd and navigate to specific service location using: <br />
 `cd C:\KTP_e-services-master\pv_performance_ratio` <br />
-`ipython main.py`
+`py main.py`
 
 2. Add an a periodic task to Task Scheduler providing action start program: <br /> C:\KTP_e-services-master\pv_performance_ratio\pv_performance_ratio.bat
