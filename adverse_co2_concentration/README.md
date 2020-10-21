@@ -23,7 +23,7 @@ The output of the service includes json file, with adverse CO2 levels registered
 
 After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2).
 1.	Open cmd and navigate to specific service location using: 
-cd C:/KTP_e-services-master/adverse_co2_concentration 
+cd C:/KTP_e-services-master/adverse_co2_concentration <br />
 py main.py
 2.	Add a periodic task to Task Scheduler providing action start program: 
 C:\KTP_e-services-master\adverse_co2_concentration\adverce_co2_concentration.bat
