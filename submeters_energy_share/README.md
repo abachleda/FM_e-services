@@ -18,6 +18,6 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 3. recipient_email - Recipient email adress for electronic alerts notification. Note that the SNMP server needs to be configured.
 
 
-#Output data
+# Output data
 
 The output of the service include json file with calculated submeters share in total energy consumption, stored in /output. The information include timestamp, considered period and all submeters listed with relevant share in total energy consumption of the building. Additionaly there the generated report is saved in the location output/reports. 
