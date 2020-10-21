@@ -13,4 +13,5 @@ eg. if you want to run this service every week data from last week needs to be e
 
 Configuration can be changed by editing SERVICE CONFIGURATION section in main.py. Following parameters can be specified by the user: 
 
-*meters
+1. meters- List of all submeters taken into account to be included in report, labels needs to be as in data file 
+2. 
