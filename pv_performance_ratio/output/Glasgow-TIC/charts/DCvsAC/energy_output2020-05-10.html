@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js" integrity="sha384-JpP8FXbgAZLkfur7LiK3j9AGBhHNIvF742meBJrjO2ShJDhCG2I1uVvW+0DUtrmc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="27d93105-3116-41b9-a0df-7fa5191a041a" data-root-id="89776"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="89894">
+          {"06234e8a-14d9-49bd-a9c5-82b01d2add5e":{"roots":{"references":[{"attributes":{},"id":"89788","type":"CategoricalTicker"},{"attributes":{},"id":"89816","type":"Selection"},{"attributes":{"start":0},"id":"89781","type":"DataRange1d"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#718dbf"},"line_alpha":{"value":0.1},"line_color":{"value":"#718dbf"},"top":{"field":"energy_DC_modelled"},"width":{"value":0.25},"x":{"field":"timestamps","transform":{"id":"89795"}}},"id":"89798","type":"VBar"},{"attributes":{"axis":{"id":"89790"},"dimension":1,"ticker":null},"id":"89793","type":"Grid"},{"attributes":{},"id":"89813","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#00008B"},"line_alpha":{"value":0.1},"line_color":{"value":"#00008B"},"top":{"field":"energy_ac_generated"},"width":{"value":0.25},"x":{"field":"timestamps","transform":{"id":"89801"}}},"id":"89804","type":"VBar"},{"attributes":{},"id":"89785","type":"LinearScale"},{"attributes":{"factors":["2020-05-04","2020-05-05","2020-05-06","2020-05-07","2020-05-08","2020-05-09","2020-05-10"]},"id":"89779","type":"FactorRange"},{"attributes":{"range":{"id":"89779"}},"id":"89795","type":"Dodge"},{"attributes":{"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"field":"energy_DC_modelled"},"width":{"value":0.25},"x":{"field":"timestamps","transform":{"id":"89795"}}},"id":"89797","type":"VBar"},{"attributes":{},"id":"89791","type":"BasicTicker"},{"attributes":{},"id":"89783","type":"CategoricalScale"},{"attributes":{"source":{"id":"89775"}},"id":"89800","type":"CDSView"},{"attributes":{"data_source":{"id":"89775"},"glyph":{"id":"89797"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"89798"},"selection_glyph":null,"view":{"id":"89800"}},"id":"89799","type":"GlyphRenderer"},{"attributes":{"label":{"value":"Measured Energy AC"},"renderers":[{"id":"89805"}]},"id":"89809","type":"LegendItem"},{"attributes":{"data":{"energy_DC_modelled":[390.8,524.7,578.2,369.3,367.2,454.0,499.4],"energy_ac_generated":[306.0,446.0,497.0,241.0,288.0,319.0,445.0],"timestamps":["2020-05-04","2020-05-05","2020-05-06","2020-05-07","2020-05-08","2020-05-09","2020-05-10"]},"selected":{"id":"89816"},"selection_policy":{"id":"89815"}},"id":"89775","type":"ColumnDataSource"},{"attributes":{"source":{"id":"89775"}},"id":"89806","type":"CDSView"},{"attributes":{"axis_label":"Energy output [kWh]","axis_label_text_font_size":"15pt","formatter":{"id":"89813"},"major_label_text_font_size":"15pt","ticker":{"id":"89791"}},"id":"89790","type":"LinearAxis"},{"attributes":{},"id":"89811","type":"CategoricalTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto"},"id":"89794","type":"Toolbar"},{"attributes":{"range":{"id":"89779"},"value":0.25},"id":"89801","type":"Dodge"},{"attributes":{"axis_label_text_font_size":"15pt","formatter":{"id":"89811"},"major_label_text_font_size":"12pt","ticker":{"id":"89788"}},"id":"89787","type":"CategoricalAxis"},{"attributes":{"items":[{"id":"89808"},{"id":"89809"}],"location":[0,-5]},"id":"89807","type":"Legend"},{"attributes":{"label":{"value":"Modelled Energy DC "},"renderers":[{"id":"89799"}]},"id":"89808","type":"LegendItem"},{"attributes":{"data_source":{"id":"89775"},"glyph":{"id":"89803"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"89804"},"selection_glyph":null,"view":{"id":"89806"}},"id":"89805","type":"GlyphRenderer"},{"attributes":{},"id":"89815","type":"UnionRenderers"},{"attributes":{"axis":{"id":"89787"},"grid_line_color":null,"ticker":null},"id":"89789","type":"Grid"},{"attributes":{"fill_color":{"value":"#00008B"},"line_color":{"value":"#00008B"},"top":{"field":"energy_ac_generated"},"width":{"value":0.25},"x":{"field":"timestamps","transform":{"id":"89801"}}},"id":"89803","type":"VBar"},{"attributes":{"text":"Daily Energy Output","text_font_size":{"value":"15pt"}},"id":"89777","type":"Title"},{"attributes":{"below":[{"id":"89787"},{"id":"89807"}],"center":[{"id":"89789"},{"id":"89793"}],"left":[{"id":"89790"}],"plot_width":700,"renderers":[{"id":"89799"},{"id":"89805"}],"title":{"id":"89777"},"toolbar":{"id":"89794"},"toolbar_location":null,"x_range":{"id":"89779"},"x_scale":{"id":"89783"},"y_range":{"id":"89781"},"y_scale":{"id":"89785"}},"id":"89776","subtype":"Figure","type":"Plot"}],"root_ids":["89776"]},"title":"Bokeh Application","version":"2.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('89894').textContent;
+                  var render_items = [{"docid":"06234e8a-14d9-49bd-a9c5-82b01d2add5e","root_ids":["89776"],"roots":{"89776":"27d93105-3116-41b9-a0df-7fa5191a041a"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
