@@ -13,7 +13,7 @@ from lib.send_email import send_email
 #custom functions 
 from lib.extract_annomalies import extract_annomalies
 
-###################SERVICE CONFIGURATION INPUT VARIABLES###########################
+#%%SERVICE CONFIGURATION INPUT VARIABLES##
 facility_name='Campus X'
 #required data format str yyyy-mm-dd hh:mm:ss
 start_date='2020-03-01 00:00:00'
@@ -57,8 +57,8 @@ meters_labels= {
     }
 
 recipient_email_address= '<recipient_email>'
-###################################################################################
 
+#%% Data Perocessing 
 #current timestamp 
 current_timestamp=datetime.now()
 current_timestamp_string =datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -100,7 +100,7 @@ buildings_list=list(energy_data1)
 energy_data1=energy_data1.reset_index()
 
 
-##DETECT INCORRECT 0  OR NAN READINGS  IN THE DATA DURING OCCUPANCY HOURS#######  
+#%%DETECT INCORRECT 0  OR NAN READINGS  IN THE DATA DURING OCCUPANCY HOURS#######  
 #%%define dictionary to store erroneous data
 data={}
 data['zero_data']={'timestamp':current_timestamp_string}
@@ -141,7 +141,7 @@ for building in buildings_list:
         buildings_name_nan_data.append(building)
 
 
-###RISE ALERT IF 0 READIINGS RECORDED FOR LONGER THAN SPECIFIED THRESHOLD OR ANY NaN READINGS RECORDED ########
+#%%RISE ALERT IF 0 READIINGS RECORDED FOR LONGER THAN SPECIFIED THRESHOLD OR ANY NaN READINGS RECORDED ########
 #array to store alerts 
 recorded_alerts={}
 #save report date as current timestamp 
@@ -164,7 +164,7 @@ for building in buildings_name_nan_data:
 
 with open('output/'+formated_date+'.json', 'w') as fp:
     json.dump(recorded_alerts, fp)   
-####SEND EMAIL NOTIFICATION IF ANY ALERTS RECORDED#####
+#%%SEND EMAIL NOTIFICATION IF ANY ALERTS RECORDED#####
 if len(recorded_alerts)>0: 
     alerts=''
     for i in recorded_alerts: 
