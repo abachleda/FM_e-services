@@ -16,3 +16,8 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 1. meters - List of all submeters taken into account to be included in report, labels needs to be as in data file 
 2. period - period of time taken into account in days
 3. recipient_email - Recipient email adress for electronic alerts notification. Note that the SNMP server needs to be configured.
+
+
+#Output data
+
+The output of the service include json file with calculated submeters share in total energy consumption. The information include timestamp, considered period and all submeters listed with relevant share in total energy consumption of the building. Additionaly there is a report generated 
