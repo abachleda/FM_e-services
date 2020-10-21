@@ -15,13 +15,16 @@ from lib.timeline_days_hours import timeline_days_hours
 #%%SERVICE CONFIGURATION###
 upper_bound=1000
 interval_datapoint_minutes=5
-number_of_days=30
+
+#%%EXPORT CO2 MEASURMENT DATA FROM CSV FILE###
+
+
 #data file structure 
 data_file_path='data/co2_data.csv'
 timestamp_column='timestamp'
 co2_column='co2'
 device_label_column='device_label'
-#%%EXPORT CO2 MEASURMENT DATA FROM CSV FILE###
+
 co2_data = pd.read_csv(data_file_path)
 
 #change timestamp to datetime
