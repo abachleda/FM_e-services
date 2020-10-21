@@ -22,7 +22,7 @@ from timezonefinder import TimezoneFinder
 
 #%% Service configuration 
 #location parameters 
-name='Glasgow-TIC'
+name='Glasgow-Building01'
 latitude=55.513
 longitude=-4.143
 altitude=48
