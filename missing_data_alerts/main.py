@@ -173,7 +173,7 @@ if len(recorded_alerts)>0:
     send_email(
             content,
 			#Fill email address 
-            receivers = 'abachleda-baca@arbnco.com',
+            receivers = recipient_email_address,
             subject = 'Missing data events detected for energy meters at '+facility_name,
             file_location = None,
             file_name = None
