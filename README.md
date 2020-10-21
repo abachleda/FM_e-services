@@ -5,10 +5,10 @@ This project contains backend data processing applications and there is no graph
 
 ![Flow chart of e-services ](/images/schema_01.png)
 
-There are 4 different services in this repository: 
-* Missing Data Alers
+There are 4 type of services in this repository: 
+* Missing Data Alerts
 * Adverse CO2 concentration
-* PV Performance rtio 
+* PV performance ratio 
 * Building zones energy share
 
 # Installation 
