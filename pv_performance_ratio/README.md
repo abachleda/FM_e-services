@@ -49,7 +49,7 @@ smtp_port=465
 After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2). 
 
 1.  Open cmd and navigate to specific service location using: <br />
-cd C:\KTP_e-services-master\pv_performance_ratio <br />
-ipython main.py
+`cd C:\KTP_e-services-master\pv_performance_ratio` <br />
+`ipython main.py`
 
 2. Add an a periodic task to Task Scheduler providing action start program: <br /> C:\KTP_e-services-master\pv_performance_ratio\pv_performance_ratio.bat
