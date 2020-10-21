@@ -31,7 +31,7 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 
 # Output data
 
-The output of the service include json file with PV energy output and calculated performance ratio stored in  /output/'name'. The information include timestamp, total dc energy modeled and total ac energy generated. Additionaly there are graphs stored  in /output/'name'/charts and reports in /output/'name'/report. 
+The output of the service include json file with PV energy output and calculated performance ratio stored in  /output/'name'. The information include timestamp, total dc energy modeled and total ac energy generated. Additionaly, generated graphs and reports are stored  in /output/'name'/charts and  /output/'name'/report respectively. 
 
 # Sending e-mails
 
