@@ -38,6 +38,8 @@ efficiency_modules= 0.143
 interval=7
 #number of days taken into account for PR visualisation 
 pr_days=90
+
+recipient_email_address= '<recipient_email>'
 #%% Modeling of sollar irradiance 
 #load the data 
 weather_data=pd.read_csv('data/weather_data.csv').sort_values(by=['timestamp'])
@@ -253,8 +255,7 @@ if data['alerts']:
       #send an email  
     send_email(
             content='Weekly energy performance report for PV system have been generated, please check the attachment',
-            receivers = 'abachleda-baca@arbnco.com',
-            #receivers = 'abachleda-baca@arbnco.com',
+            receivers = recipient_email_address,
             subject = 'TIC- PV System performance report',
             file_location = pdf_report_location,
             file_name = 'pv_performance_report'
