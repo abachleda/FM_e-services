@@ -15,4 +15,4 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 
 1. meters - List of all submeters taken into account to be included in report, labels needs to be as in data file 
 2. period - period of time taken into account in days
-3. recipient_email - 
+3. recipient_email - Recipient email adress for electronic alerts notification. Note that the SNMP server needs to be configured.
