@@ -22,3 +22,12 @@ Configuration can be changed by editing SERVICE CONFIGURATION section in main.py
 # Output data
 
 The output of the service include json file with adverse CO2 levels registered by sensors and stored in /output . The information include timestamp, duration of adverse conditions. Additionaly a timeline graphs with adverse condition visualisation for each device are saved in /output/charts.  
+
+# How to run service
+After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2). 
+
+1.  Open cmd and navigate to specific service location using: <br />
+cd C:/KTP_e-services-master/adverse_co2_concentration <br />
+py main.py
+
+2. Add an a periodic task to Task Scheduler providing action start program: <br /> C:\KTP_e-services-master\adverse_co2_concentration\adverce_co2_concentration.bat
