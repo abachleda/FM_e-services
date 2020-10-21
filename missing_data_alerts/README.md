@@ -42,7 +42,7 @@ smtp_port=465
 # How to run service
 After all required packages were installed on the local machine e-services can be either run from command window (1) or added to Task Scheduler and run as a periodic task (2).
 1.	Open cmd and navigate to specific service location using: 
-cd C:/KTP_e-services-master/missing_data_alerts 
-py main.py
+`cd C:/KTP_e-services-master/missing_data_alerts`
+`py main.py`
 2.	Add a periodic task to Task Scheduler providing action start program: 
 C:\KTP_e-services-master\missing_data_alerts\missing_data_alerts.bat
