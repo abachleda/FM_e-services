@@ -22,4 +22,6 @@ There are 4 type of services in this repository:
 ![Download_package ](/images/img_02.png)
 
 
-3.	A requirements.txt file has been supplied with all the necessary libraries required to use this tool. Use Command Prompt to navigate to the directory C:\FM_e-services-main and use `pip install -r requirements.txt` to ensure all requirements are present.
+3.	A requirements.txt file has been supplied with all the necessary libraries required to use this tool. Use Command Prompt to navigate to the -eservices directory 
+
+`cd C:\FM_e-services-main` and use `pip install -r requirements.txt` to ensure all requirements are present.
