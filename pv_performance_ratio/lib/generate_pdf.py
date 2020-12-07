@@ -37,7 +37,7 @@ def generate_pdf(name,end_date, pr_days):
     week_times=time_period_extract(days=pr_days,end_date=end_date)
 
     #Import data from json files in known directory using json_import function and save all recorded alerts#in events array 
-    path='output/Glasgow-TIC/'
+    path='output/Building1/'
     events=import_events_from_json(week_times,path)
     #transform events from json file to list of dictionaries
     total_list=[]
@@ -125,7 +125,7 @@ def generate_pdf(name,end_date, pr_days):
         pdf.set_xy(0, 0)
         pdf.set_font('arial', 'B', 12)
         pdf.cell(60)
-        pdf.cell(75, 10, "Performance of PV System in TIC Building", 0, 2, 'C')
+        pdf.cell(75, 10, "Performance of PV System in "+name, 0, 2, 'C')
         pdf.set_font('arial', 'B', 10)
         #extract begining of the week
         #change to string
