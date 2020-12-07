@@ -24,10 +24,10 @@ def send_email(
 	#s.starttls()
 
 	#Authentication
-    s.login('arbncoservices@gmail.com', 'mfRGH4v^oQAH78')
+    s.login('<provide_sender_email>', '<provide_authentication_password>')
 
 	#mesge to be sent 
-    sender = 'arbncoservices@gmail.com'
+    sender = '<provide_sender_email>'
     receivers= receivers
     msg= MIMEMultipart()
     msg['Subject']= subject
