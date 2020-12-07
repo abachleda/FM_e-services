@@ -2,8 +2,8 @@
 # Declare the working directory 
 import sys
 import os
-sys.path.append('C:/KTP_e-services-master/missing_data_alerts')
-os.chdir('C:/KTP_e-services-master/missing_data_alerts')
+sys.path.append('C:/FM_e-services-main/missing_data_alerts')
+os.chdir('C:/FM_e-services-main/missing_data_alerts')
 # Inport libraries
 import pandas as pd
 from datetime import datetime,timedelta
@@ -56,7 +56,7 @@ meters_labels= {
     'HM-TG-03':'Building_15'
     }
 
-recipient_email_address= '<recipient_email>'
+recipient_email_address= 'abachleda-baca@arbnco.com'
 
 #%% Data Perocessing 
 #current timestamp 
