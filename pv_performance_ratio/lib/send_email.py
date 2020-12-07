@@ -24,7 +24,7 @@ def send_email(
 	#s.starttls()
 
 	#Authentication
-    s.login('provide_sender_email', '<provide_authentication_password>')
+    s.login('<provide_sender_email>', '<provide_authentication_password>')
 
 	#mesge to be sent 
     sender = 'provide_sender_email'
