@@ -56,7 +56,7 @@ meters_labels= {
     'HM-TG-03':'Building_15'
     }
 
-recipient_email_address= 'abachleda-baca@arbnco.com'
+recipient_email_address= '<provide_recipient_email?'
 
 #%% Data Perocessing 
 #current timestamp 
